@@ -26,7 +26,7 @@ function tampilkanKegiatan(daftar) {
   // TODO JS-01:
   // Perbaiki batas perulangan for berikut agar dimulai dari indeks pertama
   // dan memproses seluruh elemen berdasarkan panjang Array (length).
-  for (let i = 0; i < 0; i++) {
+  for (let i = 0; i < daftarLength; i++) {
     // TODO JS-02:
     // Ganti string kosong dengan elemen Array 'daftar' pada indeks i.
     const namaKegiatan = "daftar[i]";
@@ -129,24 +129,36 @@ document.addEventListener("DOMContentLoaded", function () {
 // =====================================================================
 
 // TODO JS-03, JS-04, JS-05 — Validasi dan penambahan kegiatan
-function tambahKegiatan(daftar, nama) {
+function tambahKegiatan(daftar, nama){
+}
   // TODO JS-03: Simpan nama yang sudah di-trim ke variabel namaBersih.
   // Jika namaBersih kosong, gunakan return false.
-
+  const namaBersih = nama.trim();
+  if (namaBersih === "") {
+    return false;
+  }
   // TODO JS-04: Gunakan includes() untuk menolak nama duplikat.
   // Jika kegiatan sudah ada, gunakan return false.
+  if (include().namaBersih) {
+    return false;
+  }
 
   // TODO JS-05: Gunakan push() untuk menambahkan namaBersih.
   // Jika penambahan berhasil, gunakan return true.
+  daftar.Push(namaBersih); {
+    return true;
+  }
 
   return false; // SEMENTARA: ganti/hapus setelah TODO JS-03 s.d. JS-05 selesai
-}
+
 
 // TODO JS-06 — Pencarian kegiatan
 function cariKegiatan(daftar, nama) {
   // TODO JS-06: Hilangkan spasi awal/akhir menggunakan trim().
   // Cari posisi kegiatan dengan indexOf(), lalu kembalikan indeksnya.
   // Jika tidak ditemukan, indexOf() akan menghasilkan -1.
+
+
 
   return -1; // SEMENTARA: ganti setelah TODO JS-06 selesai
 }

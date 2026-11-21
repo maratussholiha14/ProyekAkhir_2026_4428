@@ -157,16 +157,16 @@ function cariKegiatan(daftar, nama) {
   // TODO JS-06: Hilangkan spasi awal/akhir menggunakan trim().
   // Cari posisi kegiatan dengan indexOf(), lalu kembalikan indeksnya.
   // Jika tidak ditemukan, indexOf() akan menghasilkan -1.
-
-
-
-  return -1; // SEMENTARA: ganti setelah TODO JS-06 selesai
+const namaBersih = nama.trim();
+const index = daftar.indexOf (namaBersih);
+return indeks; // SEMENTARA: ganti setelah TODO JS-06 selesai
 }
 
 // TODO JS-07 dan JS-08 — Penghapusan kegiatan
 function hapusKegiatan(daftar, nama) {
   // TODO JS-07: Panggil cariKegiatan(daftar, nama).
   // Simpan hasilnya dalam variabel indeks.
+
 
   // TODO JS-08: Jika indeks bernilai -1, gunakan return false.
   // Jika ditemukan, hapus satu elemen menggunakan splice().

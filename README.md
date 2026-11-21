@@ -10,20 +10,17 @@ Tahun pelajaran: 2026/2027
 - NIS: 4428
 - Kelas: XI RPL 2
 
-## Deskripsi Aplikasi
+## judul aplikasi
+pengelolaan kegiatan kelas
 
+## Deskripsi Aplikasi
 Aplikasi pengelolaan kegiatan kelas menggunakan HTML, CSS, dan JavaScript.
 
-## Status Pengerjaan
+## fitur yg berhasil dibuat
+tampil,tambah,cari,hapus,dan menghitung jumlah
 
-**Paket 1 — 17 November 2026:** melengkapi struktur HTML, tampilan CSS,
-dan penampilan data awal dari Array menggunakan perulangan.
+## teknologi
+HTML, CSS, JavaScript
 
-## Cara Menjalankan
-
-Buka `index.html` menggunakan browser secara offline.
-
-## Dokumentasi Lanjutan
-
-Daftar fitur dan hasil pengujian lengkap akan dilengkapi sesuai
-instruksi Paket 3. Jangan mengerjakan bagian tersebut pada Paket 1.
+## cara menjalankan aplikasi secara offline
+membuka index.html di browser
